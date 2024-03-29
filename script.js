@@ -195,7 +195,7 @@ let buttonContainer = document.querySelector(".button-container");
 let iconImage = document.querySelector(".icon-img");
 let counter = document.querySelector(".counter");
 
-let numOptions = 4;
+let numOptions = 10;
 let numCounter = 0;
 
 runNewQuestion(iconArr, numOptions);
@@ -264,6 +264,11 @@ function createOptionButton(icon)
                 if (allOptionButtons[i] === optionButton)
                 {
                     numCounter++;
+                    counter.textContent = "Count: " + numCounter;
+                }
+                else
+                {
+                    numCounter = 0;
                     counter.textContent = "Count: " + numCounter;
                 }
             }
