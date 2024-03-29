@@ -23,7 +23,7 @@ button:disabled {
     display: block;
     margin: 25px;
     height: 45px;
-    width: 50px;
+    width: 100%;
 }
 
 .button-container {
