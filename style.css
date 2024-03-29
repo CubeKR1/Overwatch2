@@ -1,0 +1,35 @@
+body {
+    background: black;
+}
+
+p {
+    color: white;
+}
+
+button:disabled {
+    background: white;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.option-button {
+    display: block;
+    margin: 5px;
+    width: 100%;
+}
+
+.button-container {
+    align-items: center;
+}
+
+.icon-img {
+    width: 100%;
+    margin: 20px;
+}
